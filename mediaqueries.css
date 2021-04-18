@@ -1,0 +1,77 @@
+@media screen and (min-width: 768px){
+    .navbar{
+        display: block;
+      }
+    header{
+        display: none;
+    }
+    .right , .left{
+        width: 50%;
+    }
+    .tilted-bg {
+        top: -6%;
+    }
+    }
+    @media screen and (max-width: 768px){
+        .navbar,.line{
+            display: none;
+          }
+          .Abt-TGM{
+              margin: 20px;
+          }
+          .right , .left{
+            width: 100%;
+            
+        }
+        .right img{
+            padding-top: 20px;
+           float: left;
+           
+        }
+        .about p{
+            width: 100%;
+        }
+        .lower-content{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+     .ep-1,.ep-2,.ep-3,.ep-4,.ep-5,
+    .ep-6,.ep-7,.ep-8{
+        width: 500px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .form-heading,.form-para,.form-input input,.form-input .submit{
+        width: 80%;
+    }
+    .form, .lower-content{
+        width: 100%;
+    }
+    .form{
+        padding-right: 10px;
+    }
+    .lower-content{
+    margin-left: -5px;
+    padding-right: 10px;
+    }
+       @media screen and (min-width: 952px){
+        .tilted-bg {
+            top: -10%;
+        }
+
+        }
+        @media screen and (max-width: 1155px){
+            .bonus{
+                width: 90%;
+                height: 100%;
+            }
+            .gimme{
+                margin-top: 120px;
+                margin-bottom: 20px;
+            }
+        }
+    
+        
+    }
+     
+    

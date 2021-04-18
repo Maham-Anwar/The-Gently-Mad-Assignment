@@ -1,0 +1,284 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    overflow: hidden;
+}
+.div{
+    display: block;
+}
+.line, .small-line{
+background-color: #8500ff;
+height: 10px;
+width: 100%;
+}
+.logo{
+    width: 180px;
+    /* height: auto; */
+    margin-top: -10px;
+    margin-left: 20px;
+}
+ul{
+    display: inline;
+    float: right;
+    
+}
+.navbar{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+   
+}
+.navbar ul li{
+    text-decoration: none ;
+    display: inline;
+    margin: 20px;
+    color: #4f5362;
+}
+.subscribe{
+    background-color: #6800cc;
+    color: #fff  !important;
+    font-weight: bold;
+    padding: 12px 40px 12px 40px;
+    border-radius: 25px;
+}
+header{
+display: flex;
+background-color: black;
+width: 200px;
+height: 50px;
+}
+header i{
+    color: black;
+    background-color: #fff;
+    padding: 15px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    margin-bottom:0;
+    font-weight: bolder;
+    font-size: 22px;
+}
+.sub-menu{
+color: #fff;
+font-weight: bolder;
+margin: auto;
+}
+.left{
+display: block;
+width: 600px;
+padding-top: 10px;
+padding-bottom: 10px;
+
+
+}
+.about p{
+    width: 70%;
+    color: #4f537b;
+    font-size: 20px;
+    line-height: 1.618em;
+    /* margin: 20px 30px 20px 20px; */
+}
+.welcome,.l-eps{
+    font-family: 'Mukta', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #6800cc;
+    padding-top: 10px;
+    /* margin-bottom: 0; */
+}
+.TGM-heading,.new,.get-free,.form-heading{
+    font-family: 'DM Serif Text', serif;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.l-eps{
+    padding-top: 50px;
+}
+.new{
+    font-size: 2.518rem;   
+}
+.get-free{
+    width: 70%;
+    font-size: 1.618rem;
+}
+.l-eps,.new{
+    margin-left: 70px;
+}
+
+.right img{
+     width: 90%;
+    height: auto; 
+    border-radius: 5px;
+    float: right;
+    
+}
+.Abt-TGM{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+p img{
+    width:190px;
+    padding-top: 20px;
+}
+
+.lower-content{
+    position: relative;
+    background-color: #e9eef4;
+    
+}
+/* -ve z-index because i want this div to appear behind every element as a background */
+/* -ve margin-top in order to move the bg div behind the TMG image */
+.tilted-bg{
+    position: absolute;
+    background: url(images/tilted-bg.svg) no-repeat;
+    height: 300px;
+    width: 300%;
+    z-index: -1;
+    top:-2%;
+}
+.all-epsiodes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+.ep-1 img,.ep-2 img,.ep-3 img,.ep-4 img,.ep-5 img,
+.ep-6 img,.ep-7 img,.ep-8 img{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  
+
+}
+.ep-1,.ep-2,.bonus,.ep-3,.ep-4,.ep-5,
+.ep-6,.ep-7,.ep-8{
+    position: relative;
+    width: 380px;
+    height: 450px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -16px rgb(128 128 128);
+}
+.eps-no{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline 3px #6800cc;
+    background-color: rgba(34,35,40, 1);
+    float: left;
+    top: 0;
+    padding: 12px;
+    
+}
+.bonus{
+    font-family: 'Mukta', sans-serif;
+    background-color: #151922;
+    color: #fff;
+}
+.small-line{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.eps-name p,.eps-name strong{
+    width: 100%;
+    font-family: 'DM Serif Text', serif;
+    font-size: 25px;
+}
+.eps-name strong{
+    font-weight: 900;
+}
+.duration,.tags{
+    color: grey;
+    font-size: 13px;}
+
+.duration,.eps-name, .tags{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+.ep-2 .tags,.ep-5 .tags,.ep-7 .tags,.ep-8 .tags{
+    padding-top: 70px ;
+}
+.ep-4 .tags{
+    padding-top: 50px;
+}
+.bonus-content,.form-para{
+    color: #c1c8df;
+    font-size: 15px;
+    line-height: 1.618em;
+}
+.gimme, .all-eps-btn{
+    color: #fff;
+    border-radius: 5px;
+    background-color: #6800cc;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+}
+.all-eps-btn{
+    width: 150px;
+    height: 20px;
+    font-weight: 500;
+    
+}
+.get-free,.bonus-content{
+padding: 20px;
+}
+.form{
+    background: linear-gradient(rgba(108, 115, 122, 0.9), rgba(106, 111, 117, 0.9))
+    , url(images/form-bg.jpg);
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+.form-content{
+text-align: center;
+padding-top: 40px;
+}
+.form-heading{
+text-align: center;
+ color: #fff;
+ font-size: 50px;
+ width: 40%;
+ margin-left: 50px;
+ line-height: 1.1em;
+}
+.form-para{
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+}
+.form-input input,.form-input .submit{
+    font-family: 'Mukta', sans-serif ;
+    font-size: 20px;
+    width: 40%;
+    padding: 15px 60px 15px 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+}
+*:focus { 
+    outline: none;
+ }
+.submit{
+    background-color: #6800cc ;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
